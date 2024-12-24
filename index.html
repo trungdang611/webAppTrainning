@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Web App Trainning</title>
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    <h1>
-        This is a Title
-    </h1>
-</body>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="form-section">
+      <form class="form-section-content" action="">
+        <h2 class="form-section-title">Create an account</h2>
+        <div>
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Ex: Huu Trung Dang,..."
+          />
+          <label for="fullname">Full name</label>
+        </div>
+        <div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example.email@gmail.com"
+          />
+          <label for="email">Email</label>
+        </div>
+        <div>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter at least 8+ characters"
+          />
+          <label for="password">Password</label>
+        </div>
+        <input type="submit" value="Sign in" />
+        <div class="form-social">
+          <p>Or sign in with</p>
+          <div class="form-social-icon">
+            <i class="fa-solid fa-g"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-apple"></i>
+          </div>
+        </div>
+      </form>
+      <div class="form-section-image">
+        <img
+          src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+          alt="form image"
+          title="form image"
+        />
+      </div>
+    </section>
+  </body>
 </html>

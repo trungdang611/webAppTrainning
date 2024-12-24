@@ -1,3 +1,36 @@
-h1 {
-    color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.form-section {
+  margin: 80px auto;
+  max-width: 700px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 8px 8px 0;
+
+  .form-section-content {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input {
+      width: 100%;
+    }
+  }
+
+  .form-section-image img {
+    width: 330px;
+    height: 100%;
+    background-color: cadetblue;
+    border-radius: 0 8px 8px 0;
+  }
 }
