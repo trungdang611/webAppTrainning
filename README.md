@@ -1,3 +1,3 @@
 ﻿# webAppTrainning
 ## Link
-### Deploy: 
+. Deploy: https://trungdang611.github.io/webAppTrainning/
