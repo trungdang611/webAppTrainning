@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: aliceblue;
-}
-
 .form-section {
   margin: 80px auto;
   max-width: 996px;
