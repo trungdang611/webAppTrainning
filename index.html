@@ -10,65 +10,67 @@
     />
   </head>
   <body>
-    <section class="form-section">
-      <form class="form-section-content" action="">
-        <h2 class="form-section-title">Create an account</h2>
-        <div class="form-input">
-          <input
-            type="text"
-            id="fullname"
-            name="fullname"
-            placeholder="Ex: Trung Dang,..."
-          />
-          <label for="fullname">Full name</label>
-        </div>
-        <div class="form-input">
-          <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="example.email@gmail.com"
-          />
-          <label for="email">Email</label>
-        </div>
-        <div class="form-input">
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Enter at least 8+ characters"
-          />
-          <label for="password">Password</label>
-          <img
-            id="password-img"
-            src="./assets/icons/phosphor-right-icon.svg"
-            alt=""
-          />
-        </div>
-        <input type="submit" value="Sign in" />
-        <div class="form-social">
-          <p>Or sign in with</p>
-          <div class="form-social-icon">
-            <a href="mailto:someone@example.com">
-              <i class="fa-solid fa-g brown bg-brown"></i>
-            </a>
-            <a href="https://www.facebook.com/" target="_blank">
-              <i class="fa-brands fa-facebook blue bg-blue"></i>
-            </a>
-            <a href="tel:+0123456789">
-              <i class="fa-brands fa-apple gray bg-gray"></i>
-            </a>
+    <div class="container">
+      <section class="form-section">
+        <form class="form-section-content" action="">
+          <h2 class="form-section-title">Create an account</h2>
+          <div class="form-input">
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Ex: Trung Dang,..."
+            />
+            <label for="fullname">Full name</label>
           </div>
+          <div class="form-input">
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="example.email@gmail.com"
+            />
+            <label for="email">Email</label>
+          </div>
+          <div class="form-input">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter at least 8+ characters"
+            />
+            <label for="password">Password</label>
+            <img
+              id="password-img"
+              src="./assets/icons/phosphor-right-icon.svg"
+              alt=""
+            />
+          </div>
+          <input type="submit" value="Sign in" />
+          <div class="form-social">
+            <p>Or sign in with</p>
+            <div class="form-social-icon">
+              <a href="mailto:someone@example.com">
+                <i class="fa-solid fa-g brown bg-brown"></i>
+              </a>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook blue bg-blue"></i>
+              </a>
+              <a href="tel:+0123456789">
+                <i class="fa-brands fa-apple gray bg-gray"></i>
+              </a>
+            </div>
+          </div>
+        </form>
+        <div class="form-section-image">
+          <img
+            src="./assets/images/form-image.svg"
+            alt="form image"
+            title="form image"
+          />
         </div>
-      </form>
-      <div class="form-section-image">
-        <img
-          src="./assets/images/form-image.svg"
-          alt="form image"
-          title="form image"
-        />
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
   <script src="./js/main.js"></script>
 </html>

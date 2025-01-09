@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-section {
@@ -20,6 +30,7 @@
     padding: 80px 96px;
 
     .form-section-title {
+      font-family: "Epilogue", sans-serif;
       margin-bottom: 32px;
       font-size: 32px;
       line-height: 48px;
@@ -31,6 +42,7 @@
       position: relative;
       width: 359px;
       margin-bottom: 24px;
+      font-family: "Inter", sans-serif;
       input {
         width: 100%;
         padding: 25px 12px 4px;
@@ -88,11 +100,12 @@
     }
 
     input[type="submit"]:hover:active {
-      background: #0095A9FF;
+      background: #0095a9ff;
     }
 
     .form-social {
       text-align: center;
+      font-family: "Inter", sans-serif;
       .form-social-icon {
         margin-top: 8px;
         display: flex;
@@ -139,12 +152,12 @@
   background-color: #fef1f1ff;
 }
 
-.bg-brown:hover{
-  background-color: #FDEEEDFF;
+.bg-brown:hover {
+  background-color: #fdeeedff;
 }
 
 .bg-brown:hover:active {
-    background-color: #FDE1E0FF;
+  background-color: #fde1e0ff;
 }
 
 .blue {
@@ -156,11 +169,11 @@
 }
 
 .bg-blue:hover {
-  background-color: #F0F4FAFF;
+  background-color: #f0f4faff;
 }
 
 .bg-blue:hover:active {
-  background-color: #E7ECF7FF;
+  background-color: #e7ecf7ff;
 }
 
 .gray {
@@ -168,13 +181,13 @@
 }
 
 .bg-gray {
-  background-color: #F3F4F6FF;
+  background-color: #f3f4f6ff;
 }
 
 .bg-gray:hover {
-  background-color: #DEE1E6FF;
+  background-color: #dee1e6ff;
 }
 
 .bg-gray:hover:active {
-  background-color: #CFD2DAFF;
+  background-color: #cfd2daff;
 }
